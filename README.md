@@ -10,6 +10,24 @@ This research presents a real-time warning system designed to enhance cyclist sa
 - Bird's-eye view transformation for improved spatial awareness
 - Multi-vehicle tracking and movement prediction
 
+##Tech Stack
+
+-Programming Language: Python 3.8+
+-Deep Learning Framework: PyTorch
+-Computer Vision: OpenCV
+-Data Processing: NumPy, Pandas
+-Model Training: CUDA (GPU acceleration)
+
+##Libraries and Dependencies
+-pytorch >= 1.12.0
+-opencv-python >= 4.7.0
+-numpy >= 1.21.0
+-pandas >= 1.4.0
+-ultralytics  # for YOLOv8
+-scikit-learn >= 1.0.0
+-matplotlib >= 3.5.0
+
+
 ## Technical Implementation
 - Object detection: YOLOv8
 - Distance estimation: Monocular vision with IPM
@@ -23,19 +41,20 @@ This research presents a real-time warning system designed to enhance cyclist sa
 ## Contact
 nthabiseng.thema1@students.wits.ac.za
 
-## Repository Structure
-- `/src` - Source code for the warning system
-- `/data` - Test datasets and results
-- `/docs` - Additional documentation and research paper
-- `/models` - Trained models and weights
+Repository Structure
 
-## Citation
-If you use this work in your research, please cite:
-```
-@article{thema2024computer,
-  title={Computer-assisted cyclist road safety warning system},
-  author={Thema, Nthabiseng and Bau, Hairong},
-  institution={University of the Witwatersrand},
-  year={2024}
-}
-```
+/src - Source code for the warning system
+
+/detection - YOLOv8 implementation and vehicle detection
+/ipm - Inverse Perspective Mapping algorithms
+/tracking - Vehicle tracking and movement prediction
+/utils - Helper functions and utilities
+
+
+/data - Test datasets and results
+/docs - Additional documentation and research paper
+/models - Trained models and weights
+/configs - Configuration files
+/tests - Unit tests and integration tests
+
+
