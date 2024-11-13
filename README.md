@@ -19,6 +19,7 @@ This research presents a real-time warning system designed to enhance cyclist sa
 -Model Training: CUDA (GPU acceleration)
 
 ## Libraries and Dependencies
+
 -pytorch >= 1.12.0
 -opencv-python >= 4.7.0
 -numpy >= 1.21.0
@@ -29,6 +30,7 @@ This research presents a real-time warning system designed to enhance cyclist sa
 
 
 ## Technical Implementation
+
 - Object detection: YOLOv8
 - Distance estimation: Monocular vision with IPM
 - Angle detection: Geometric computation with reference point system
