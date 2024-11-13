@@ -10,7 +10,7 @@ This research presents a real-time warning system designed to enhance cyclist sa
 - Bird's-eye view transformation for improved spatial awareness
 - Multi-vehicle tracking and movement prediction
 
-##Tech Stack
+## Tech Stack
 
 -Programming Language: Python 3.8+
 -Deep Learning Framework: PyTorch
@@ -18,7 +18,7 @@ This research presents a real-time warning system designed to enhance cyclist sa
 -Data Processing: NumPy, Pandas
 -Model Training: CUDA (GPU acceleration)
 
-##Libraries and Dependencies
+## Libraries and Dependencies
 -pytorch >= 1.12.0
 -opencv-python >= 4.7.0
 -numpy >= 1.21.0
